@@ -15,7 +15,7 @@ export default function modernUI(update, parameters) {
         },
         {
             name: 'Manual SponsorBlock Segment Skip',
-            icon: 'DOLLAR_SIGN',
+            icon: 'ytContribIconBarsThree',
             value: null,
             options: [
                 {
