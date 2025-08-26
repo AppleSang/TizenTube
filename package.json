@@ -1,5 +1,5 @@
 {
-  "name": "@applesang/tizentube",
+  "name": "@AppleSang/TizenTube",
   "appName": "TizenTube",
   "version": "1.7.0",
   "description": "TizenTube but AppleSang.",
@@ -19,7 +19,7 @@
     "MediaTrackPrevious"
   ],
   "repository": {
-    "url": "https://github.com/reisxd/TizenTube"
+    "url": "https://github.com/AppleSang/TizenTube"
   },
   "license": "GPL-3.0-only"
 }
