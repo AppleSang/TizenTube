@@ -55,38 +55,45 @@ export default function modernUI(update, parameters) {
             ]
         },
         {
-            name: 'Skip Sponsor Segments',
-            icon: 'MONEY_HEART',
-            value: 'enableSponsorBlockSponsor'
-        },
-        {
-            name: 'Skip Intro Segments',
-            icon: 'PLAY_CIRCLE',
-            value: 'enableSponsorBlockIntro'
-        },
-        {
-            name: 'Skip Outro Segments',
-            value: 'enableSponsorBlockOutro'
-        },
-        {
-            name: 'Skip Interaction Reminder Segments',
-            value: 'enableSponsorBlockInteraction'
-        },
-        {
-            name: 'Skip Self-Promotion Segments',
-            value: 'enableSponsorBlockSelfPromo'
-        },
-        {
-            name: 'Skip Preview/Recap Segments',
-            value: 'enableSponsorBlockPreview'
-        },
-        {
-            name: 'Skip Tangents/Jokes Segments',
-            value: 'enableSponsorBlockFiller'
-        },
-        {
-            name: 'Skip Off-Topic Music Segments',
-            value: 'enableSponsorBlockMusicOfftopic'
+            name: 'Automation SponsorBlock Segment Skip',
+            icon: 'ytContribIconBarsThree',
+            value: null,
+            options: [
+                {
+                    name: 'Skip Sponsor Segments',
+                    icon: 'MONEY_HEART',
+                    value: 'enableSponsorBlockSponsor'
+                },
+                {
+                    name: 'Skip Intro Segments',
+                    icon: 'PLAY_CIRCLE',
+                    value: 'enableSponsorBlockIntro'
+                },
+                {
+                    name: 'Skip Outro Segments',
+                    value: 'enableSponsorBlockOutro'
+                },
+                {
+                    name: 'Skip Interaction Reminder Segments',
+                    value: 'enableSponsorBlockInteraction'
+                },
+                {
+                    name: 'Skip Self-Promotion Segments',
+                    value: 'enableSponsorBlockSelfPromo'
+                },
+                {
+                    name: 'Skip Preview/Recap Segments',
+                    value: 'enableSponsorBlockPreview'
+                },
+                {
+                    name: 'Skip Tangents/Jokes Segments',
+                    value: 'enableSponsorBlockFiller'
+                },
+                {
+                    name: 'Skip Off-Topic Music Segments',
+                    value: 'enableSponsorBlockMusicOfftopic'
+                }
+            ]
         },
         {
             name: 'DeArrow',
