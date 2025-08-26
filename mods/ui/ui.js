@@ -162,9 +162,8 @@ function execute_once_dom_loaded() {
   document.addEventListener('keyup', eventHandler, true);
 
   setTimeout(() => {
-    showToast('Welcome to TizenTube', 'Go to settings and scroll down to TizenTube category to open TizenTube Settings, open playback settings, click on Speed to open Video Speed Settings and press [RED] to open TizenTube Theme Settings.');
-  }, 2000);
-
+    showToast('Welcome to ▶️TizenTube', 'Go to settings to open TizenTube Settings | Open playback settings, click on Speed to open Video Speed Settings | Press [RED] to open TizenTube Theme Settings');
+  }, 6000);
   // Fix UI issues, again. Love, Googol.
 
   if (configRead('enableFixedUI')) {
